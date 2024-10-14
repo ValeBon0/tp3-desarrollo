@@ -1,0 +1,173 @@
+.product-details {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.main-image {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.main-image img {
+    width: 60%; /* Ajusta el tamaño según tus necesidades */
+    max-width: 600px; /* Tamaño máximo de la imagen grande */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-info {
+    flex: 1;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.thumbnails {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.thumbnails img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: border 0.3s;
+}
+
+.thumbnails img:hover {
+    border: 2px solid #007bff;
+}
+
+.back-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 15px 20px;
+    text-align: left;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  tr:hover td {
+    background-color: #f1f1f1;
+  }
+  
+  td:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+.product-item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); 
+}
+
+body {
+    background: linear-gradient(135deg, #f2f2f2, #ffffff);
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.back-button:hover {
+    transform: scale(1.1);
+}
